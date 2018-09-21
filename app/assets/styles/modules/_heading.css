@@ -1,0 +1,14 @@
+.heading{
+  font-family: $mont;
+  text-transform: uppercase;
+  font-weight: 600;
+
+  &--introduction-small-heading{
+    margin-bottom: 0;
+  }
+
+  &--introduction-large-heading{
+    margin-top: 10px;
+  }
+
+}
