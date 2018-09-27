@@ -1,7 +1,19 @@
 .page-section {
-  padding: 1.2rem 0;
+  padding-top: 1.5rem ;
+
+  @mixin atSmall{
+    padding-top: 2rem;
+  }
 
   @mixin atMedium {
+    padding-top: 5.2rem;
+  }
+
+  @mixin atLarge {
     padding: 4.5rem 0;
+  }
+
+  @mixin atExLarge {
+    padding-top: 10rem;
   }
 }

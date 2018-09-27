@@ -1788,9 +1788,9 @@ a{
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 100vh;
 
 }
-/* height: 100vh; */
 .hero__text-content{
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -1800,7 +1800,7 @@ a{
     margin-bottom: 0;
 
   }
-@media(min-width:768px) and (max-width: 991px){
+@media(min-width:769px) and (max-width: 991px){
 .hero__title{
       font-size: 3.125rem
 
@@ -1839,13 +1839,13 @@ a{
     margin-top: -0.75rem;
 
   }
-@media(min-width: 576px) and (max-width: 767px){
+@media(min-width: 576px) and (max-width: 768px){
 .hero__image{
       width: 70%
 
   }
   }
-@media(min-width:768px) and (max-width: 991px){
+@media(min-width:769px) and (max-width: 991px){
 .hero__image{
       width: 80%
 
@@ -1858,11 +1858,26 @@ a{
   }
   }
 .page-section {
-  padding: 1.2rem 0;
+  padding-top: 1.5rem ;
 }
-@media(min-width:768px) and (max-width: 991px){
+@media(min-width: 576px) and (max-width: 768px){
+.page-section {
+    padding-top: 2rem
+}
+  }
+@media(min-width:769px) and (max-width: 991px){
+.page-section {
+    padding-top: 5.2rem
+}
+  }
+@media(min-width:992px) and (max-width: 1280px){
 .page-section {
     padding: 4.5rem 0
+}
+  }
+@media(min-width:1281px){
+.page-section {
+    padding-top: 10rem
 }
   }
 .heading{
@@ -1876,6 +1891,9 @@ a{
   }
 .heading--introduction-large-heading{
     margin-top: 10px;
+  }
+.heading--design{
+    text-align: center;
   }
 .generic-content{
   font-family: 'Montserrat', sans-serif;
@@ -1892,5 +1910,264 @@ a{
 @media(min-width:1281px){
 .introduction__content{
       margin-top: 22px
+  }
+  }
+.design__diagram{
+    display: block;
+    margin: 0 auto;
+  }
+.design__img-container{
+    position: relative;
+  }
+/* LINE IMAGES */
+.design--camera{
+    position: absolute;
+
+  }
+@media(min-width:992px) and (max-width: 1280px){
+.design--camera{
+      right: 28%;
+      bottom: 5%
+
+  }
+  }
+@media(min-width:1281px){
+.design--camera{
+      right:31%;
+      bottom:10%
+
+  }
+  }
+@media(min-width:1367px){
+.design--camera{
+      right:28%;
+      bottom: 18%
+
+  }
+  }
+.design--led{
+    position: absolute;
+  }
+@media(min-width:992px) and (max-width: 1280px){
+.design--led{
+      right: 7%;
+      bottom:34%
+  }
+  }
+@media(min-width:1281px){
+.design--led{
+      right: 10%;
+      bottom: 40%
+  }
+  }
+@media(min-width:1367px){
+.design--led{
+      right:5%;
+      bottom: 26%
+  }
+  }
+.design--gps{
+    position: absolute;
+  }
+@media(min-width:992px) and (max-width: 1280px){
+.design--gps{
+      right: 42.1%;
+      top: -1%
+  }
+  }
+@media(min-width:1281px){
+.design--gps{
+      right: 43.3%;
+      top: 5%
+  }
+  }
+@media(min-width:1367px){
+.design--gps{
+      right: 42.1%;
+      top: -1%
+  }
+  }
+.design--landing-gear{
+    position: absolute;
+  }
+@media(min-width:992px) and (max-width: 1280px){
+.design--landing-gear{
+      right: 73%;
+      top: 30%
+  }
+  }
+@media(min-width:1281px){
+.design--landing-gear{
+      right: 74%;
+      top: 35%
+  }
+  }
+@media(min-width:1367px){
+.design--landing-gear{
+      right: 73%;
+      top: 30%
+  }
+  }
+.design--motor{
+    position: absolute;
+  }
+@media(min-width:992px) and (max-width: 1280px){
+.design--motor{
+      right: 75%;
+      top: 3%
+  }
+  }
+@media(min-width:1281px){
+.design--motor{
+      right: 75%;
+      top: 8%
+  }
+  }
+@media(min-width:1367px){
+.design--motor{
+      right: 73%;
+      top: -2%
+  }
+  }
+.design--propeller{
+    position: absolute;
+  }
+@media(min-width:992px) and (max-width: 1280px){
+.design--propeller{
+      right: 5%;
+      top: -1%
+  }
+  }
+@media(min-width:1281px){
+.design--propeller{
+      right: 12%;
+      top: 3%
+  }
+  }
+@media(min-width:1367px){
+.design--propeller{
+      right: 10%;
+      top: -12%
+  }
+  }
+/* DESIGN PARTS */
+.design--part-camera{
+    position: absolute;
+  }
+@media(min-width:992px) and (max-width: 1280px){
+.design--part-camera{
+      left: 71%;
+      bottom: 24%
+  }
+  }
+@media(min-width:1281px){
+.design--part-camera{
+      left: 69%;
+      bottom: 26%
+  }
+  }
+.design--part-led{
+    position: absolute;
+  }
+@media(min-width:992px) and (max-width: 1280px){
+.design--part-led{
+      left: 93%;
+      bottom: 41%
+  }
+  }
+@media(min-width:1281px){
+.design--part-led{
+      left: 90%;
+      bottom: 46%
+  }
+  }
+@media(min-width:1367px){
+.design--part-led{
+      left: 94%;
+      bottom: 43%
+  }
+  }
+.design--part-gps{
+    position: absolute;
+  }
+@media(min-width:992px) and (max-width: 1280px){
+.design--part-gps{
+      left: 47.7%;
+      bottom: 90%
+  }
+  }
+@media(min-width:1281px){
+.design--part-gps{
+      left: 48.4%;
+      bottom: 87%
+  }
+  }
+@media(min-width:1367px){
+.design--part-gps{
+      left: 49%;
+      bottom: 92%
+  }
+  }
+.design--part-landing-gear{
+    position: absolute;
+  }
+@media(min-width:992px) and (max-width: 1280px){
+.design--part-landing-gear{
+      left: -3%;
+      bottom: 40%
+  }
+  }
+@media(min-width:1281px){
+.design--part-landing-gear{
+      left: 1%;
+      bottom: 40.2%
+  }
+  }
+@media(min-width:1367px){
+.design--part-landing-gear{
+      left: 2%;
+      bottom: 37.2%
+  }
+  }
+.design--part-motor{
+    position: absolute;
+  }
+@media(min-width:992px) and (max-width: 1280px){
+.design--part-motor{
+      left: 2%;
+      bottom: 78%
+  }
+  }
+@media(min-width:1281px){
+.design--part-motor{
+      left: 6%;
+      bottom: 76.2%
+  }
+  }
+@media(min-width:1367px){
+.design--part-motor{
+      left: 7%;
+      bottom: 76.8%
+  }
+  }
+.design--part-propeller{
+    position: absolute;
+  }
+@media(min-width:992px) and (max-width: 1280px){
+.design--part-propeller{
+      left: 93%;
+      bottom: 80%
+  }
+  }
+@media(min-width:1281px){
+.design--part-propeller{
+      left: 87%;
+      bottom: 80%
+  }
+  }
+@media(min-width:1367px){
+.design--part-propeller{
+      left: 89%;
+      bottom: 84%
   }
   }
