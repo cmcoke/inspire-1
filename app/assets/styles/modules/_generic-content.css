@@ -1,5 +1,8 @@
 .generic-content{
-  font-family: $mont;
   line-height: 1.80;
   margin: 0 0 1.8rem 0;
+
+  &--camera{
+    color: #fff;
+  }
 }

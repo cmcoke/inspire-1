@@ -1755,6 +1755,9 @@ template {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+body{
+  font-family: 'Montserrat', sans-serif;
+}
 img{
   max-width: 100%;
   height: auto;
@@ -1792,7 +1795,6 @@ a{
 
 }
 .hero__text-content{
-    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     text-align: center;
   }
@@ -1881,7 +1883,6 @@ a{
 }
   }
 .heading{
-  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-weight: 600;
 
@@ -1895,11 +1896,16 @@ a{
 .heading--design{
     text-align: center;
   }
+.heading--camera{
+    color: #fff;
+  }
 .generic-content{
-  font-family: 'Montserrat', sans-serif;
   line-height: 1.80;
   margin: 0 0 1.8rem 0;
 }
+.generic-content--camera{
+    color: #fff;
+  }
 /* display: -webkit-flex;
   display: -ms-flex;
   display: flex;
@@ -2171,3 +2177,48 @@ a{
       bottom: 84%
   }
   }
+.camera{
+  background-color: #1C4370;
+
+}
+.camera__img{
+    margin-top: -7.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+@media(min-width:769px) and (max-width: 991px){
+.camera__img{
+      margin-top: -11.25rem
+  }
+  }
+@media(min-width:992px) and (max-width: 1280px){
+.camera__img{
+      margin-top: -11.25rem
+  }
+  }
+@media(min-width:1281px){
+.camera__img{
+      margin-top: -17.5rem
+  }
+  }
+@media(min-width:1367px){
+.camera__img{
+        margin-left: 6.25rem
+  }
+  }
+@media(min-width:1281px){
+.camera__content{
+      margin-top: -7.625rem
+  }
+  }
+.camera__specs{
+    color: #fff;
+    list-style-type: circle;
+    margin: 0 0.75rem 0 0;
+    padding: 0;
+  }
+.camera__specs li{
+      margin-bottom: 0.6875rem;
+      margin-left: 1.2rem;
+    }

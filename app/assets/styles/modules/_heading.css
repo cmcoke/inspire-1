@@ -1,5 +1,4 @@
 .heading{
-  font-family: $mont;
   text-transform: uppercase;
   font-weight: 600;
 
@@ -13,6 +12,10 @@
 
   &--design{
     text-align: center;
+  }
+
+  &--camera{
+    color: #fff;
   }
 
 }

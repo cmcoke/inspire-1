@@ -9,7 +9,6 @@
 
 
   &__text-content{
-    font-family: $mont;
     text-transform: uppercase;
     text-align: center;
   }
