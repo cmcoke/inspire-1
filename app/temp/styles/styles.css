@@ -1901,6 +1901,9 @@ a{
 .heading--remote{
     text-align: center;
   }
+.heading--app{
+    text-align: center;
+  }
 .generic-content{
   line-height: 1.80;
   margin: 0 0 1.8rem 0;
@@ -1909,7 +1912,12 @@ a{
     color: #fff;
   }
 .generic-content--remote{
-
+    /* margin-left: 140px;
+    width: 80%; */
+  }
+.generic-content--app{
+    /* margin-left: 140px;
+    width: 80%; */
   }
 /* display: -webkit-flex;
   display: -ms-flex;
@@ -2284,3 +2292,17 @@ a{
       margin-top: 2.5rem
   }
   }
+.app{
+    background-image: url('../../assets/images/app--background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+.app__text-content{
+      padding-top: 50px;
+    }
+.app__phone{
+      display: block;
+      margin: 90px auto;
+    }

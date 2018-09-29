@@ -7,6 +7,12 @@
   }
 
   &--remote{
+    /* margin-left: 140px;
+    width: 80%; */
+  }
 
+  &--app{
+    /* margin-left: 140px;
+    width: 80%; */
   }
 }

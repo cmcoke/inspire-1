@@ -21,4 +21,8 @@
   &--remote{
     text-align: center;
   }
+
+  &--app{
+    text-align: center;
+  }
 }
