@@ -1,0 +1,24 @@
+.btn{
+
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: .75rem 1.2rem;
+  display: inline-block;
+  transition: 250ms ease;
+
+  &__container{
+    text-align: center;
+  }
+
+  &--buy-now{
+    background-color: #363636;
+    color: #fff;
+  }
+
+  &--buy-now:hover{
+    background-color: $blue;
+    color: #fff;
+
+  }
+
+}

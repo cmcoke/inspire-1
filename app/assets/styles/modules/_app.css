@@ -4,12 +4,12 @@
     background-repeat: no-repeat;
 
     &__text-content{
-      padding-top: 50px;
+      padding-top: 3.125rem;
     }
 
     &__phone{
       display: block;
-      margin: 90px auto;
+      margin: 5.625rem auto;
     }
 
 

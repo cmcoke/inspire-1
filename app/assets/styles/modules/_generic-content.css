@@ -15,4 +15,14 @@
     /* margin-left: 140px;
     width: 80%; */
   }
+
+  &--price{
+    text-align: center;
+    margin-top: -18px;
+    font-size: 14px;
+  }
+
+  &--package{
+    text-align: center;
+  }
 }
