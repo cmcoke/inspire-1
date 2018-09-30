@@ -41,4 +41,9 @@
       margin-top: -1.0625rem;
     }
   }
+
+  &--footer{
+    color: #fff;
+    font-size: 1.125rem;
+  }
 }

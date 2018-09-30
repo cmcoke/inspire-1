@@ -1922,6 +1922,10 @@ a{
       margin-top: -1.0625rem
   }
   }
+.heading--footer{
+    color: #fff;
+    font-size: 1.125rem;
+  }
 .generic-content{
   line-height: 1.80;
   margin: 0 0 1.8rem 0;
@@ -2378,5 +2382,84 @@ a{
 .btn--buy-now:hover{
     background-color: #1C4370;
     color: #fff;
+  }
+.btn--newsletter{
+    background-color: #1C4370;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
 
+  }
+.btn--newsletter:hover{
+      background-color: #163356;
+    }
+@media(min-width:768px) and (max-width: 991px){
+.btn--newsletter{
+      width: 100%
+
+  }
+  }
+.footer{
+  background-color: #0C0C0C;
+  margin-top: 50px;
+  text-align: center;
+
+}
+@media(min-width:1281px){
+.footer{
+    padding-top: 70px
+
+}
+  }
+.footer ul{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+.footer ul li{
+    margin-bottom: 12px;
+  }
+.footer a{
+    color: #fff;
+    font-size: 0.875rem;
+    -webkit-transition: 250ms ease;
+    transition: 250ms ease;
+
+  }
+.footer ul a:hover{
+    color: #ED3D3D;
+  }
+.footer__form{
+    width: 100%;
+    padding: 8px;
+    border: none;
+  }
+@media(min-width:768px) and (max-width: 991px){
+.footer__form{
+      width: 100%
+  }
+  }
+.footer ::-webkit-input-placeholder {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  }
+.footer :-ms-input-placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+  }
+.footer ::-ms-input-placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+  }
+.footer ::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+  }
+.footer__creator{
+    color: #fff;
+    font-size: 15px;
+  }
+.footer__creator a:hover{
+    color: #ED3D3D;
   }
