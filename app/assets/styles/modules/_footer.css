@@ -1,10 +1,10 @@
 .footer{
   background-color: #0C0C0C;
-  margin-top: 50px;
+  margin-top: 3.125rem;
   text-align: center;
 
   @mixin atExLarge{
-    padding-top: 70px;
+    padding-top: 4.375rem;
   }
 
   & ul{
@@ -14,7 +14,7 @@
   }
 
   & ul li{
-    margin-bottom: 12px;
+    margin-bottom: 0.75rem;
   }
 
   & a{
@@ -30,7 +30,7 @@
 
   &__form{
     width: 100%;
-    padding: 8px;
+    padding: 0.5rem;
     border: none;
 
     @mixin atMedium{
@@ -38,29 +38,33 @@
     }
   }
 
+  & input[type = text]{
+    font-family: $mont;
+  }
+
   ::-webkit-input-placeholder {
   font-family: $mont;
-  font-size: 15px;
+  font-size: 0.9375rem;
   }
 
   ::-moz-placeholder {
     font-family: $mont;
-    font-size: 15px;
+    font-size: 0.9375rem;
   }
 
   :-ms-input-placeholder {
     font-family: $mont;
-    font-size: 15px;
+    font-size: 0.9375rem;
   }
 
   ::placeholder {
     font-family: $mont;
-    font-size: 15px;
+    font-size: 0.9375rem;
   }
 
   &__creator{
     color: #fff;
-    font-size: 15px;
+    font-size: 0.9375rem;
   }
 
   &__creator a:hover{

@@ -20,10 +20,24 @@
 
   &--remote{
     text-align: center;
+
+
+    @mixin atExLarge{
+      margin-top: -5rem;
+    }
+  }
+
+  &--remote-small{
+
+    @mixin atExLarge{
+      margin-top: 4.375rem;
+    }
   }
 
   &--app{
     text-align: center;
+
+
   }
 
   &--buy{

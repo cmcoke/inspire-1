@@ -16,4 +16,21 @@
   @mixin atExLarge {
     padding-top: 10rem;
   }
+
+  &--camera{
+    margin-top: 4.6875rem;
+
+    @mixin atSmall{
+      margin-top: 4.6875rem;
+    }
+
+    @mixin atLarge{
+      margin-top: 4.0625rem;
+    }
+
+    @mixin atExLarge{
+      margin-top: 4.6875rem;
+      padding: 8.75rem;
+    }
+  }
 }

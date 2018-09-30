@@ -24,13 +24,6 @@
     }
   }
 
-  &__content{
-
-    @mixin atExLarge{
-      margin-top: -7.625rem;
-    }
-  }
-
   &__specs{
     color: #fff;
     list-style-type: circle;
@@ -38,7 +31,7 @@
     padding: 0;
 
     & li{
-      margin-bottom: 0.6875rem;
+      margin-bottom: 0.6975rem;
       margin-left: 1.2rem;
     }
   }
