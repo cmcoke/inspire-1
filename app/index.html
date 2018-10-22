@@ -74,10 +74,10 @@
 
         <div class="col-xs-12 col-md-6">
           <picture>
-            <source srcset="assets/images/about--desktop.jpg 800w, assets/images/about--desktop-hi-dpi.jpg 1600w" media="(min-width:1367px)">
-            <source srcset="assets/images/about--tablet-landscape.jpg 400w, assets/images/about--tablet-landscape-hi-dpi.jpg 800w" media="(min-width:1024px)">
-            <source srcset="assets/images/about--mobile-landscape.jpg 800w, assets/images/about--mobile-landscape-hi-dpi.jpg 1600w" media="(min-width:640px)">
-            <img srcset="assets/images/about--mobile-portrait.jpg 565w, assets/images/about--mobile-portrait-hi-dpi.jpg 1130w" alt="The Inspire 1 on a flim set">
+            <source data-srcset="assets/images/about--desktop.jpg 800w, assets/images/about--desktop-hi-dpi.jpg 1600w" media="(min-width:1367px)">
+            <source data-srcset="assets/images/about--tablet-landscape.jpg 400w, assets/images/about--tablet-landscape-hi-dpi.jpg 800w" media="(min-width:1024px)">
+            <source data-srcset="assets/images/about--mobile-landscape.jpg 800w, assets/images/about--mobile-landscape-hi-dpi.jpg 1600w" media="(min-width:640px)">
+            <img class="lazyload" data-srcset="assets/images/about--mobile-portrait.jpg 565w, assets/images/about--mobile-portrait-hi-dpi.jpg 1130w" alt="The Inspire 1 on a flim set">
 
           </picture>
         </div>
@@ -239,7 +239,7 @@
           </div>
 
           <div class="col-sm-6">
-            <img src="assets/images/remote.png" alt="" class="remote__controller">
+            <img class="lazyload" data-src="assets/images/remote.png" alt="" class="remote__controller">
 
             </div>
 
@@ -258,7 +258,7 @@
         </div>
 
         <div class="col-sm-6 col-md-5">
-          <img src="assets/images/remote-lightbridge.png" alt="" class="remote__lightbridge">
+          <img class="lazyload" data-src="assets/images/remote-lightbridge.png" alt="" class="remote__lightbridge">
 
           </div>
 
@@ -297,7 +297,7 @@
   <section class="buy page-section current-section" id="buy" data-matching-link="#buy-link">
 
     <div class="container">
-      <img src="assets/images/test7.png" alt="" class="buy__img">
+      <img src="assets/images/buy.png" alt="" class="buy__img">
       <h2 class="heading heading--buy">Buy Inspire 1</h2>
       <p class="generic-content generic-content--price">From USD &#36;2&#44;414.99</p>
       <div class="generic-content generic-content--package">
