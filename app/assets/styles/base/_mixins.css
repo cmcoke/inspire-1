@@ -31,3 +31,17 @@
     @mixin-content;
   }
 }
+
+/* Mobile Menu */
+@define-mixin atMobileMenu{
+  @media(max-width: 991px){
+    @mixin-content;
+  }
+}
+
+/* Desktop Menu */
+@define-mixin atDesktopMenu{
+  @media(min-width: 992px){
+    @mixin-content;
+  }
+}
